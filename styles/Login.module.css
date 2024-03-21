@@ -70,3 +70,52 @@
 .title {
   margin-top: 50px;
 }
+
+@media (min-width: 768px) and (max-width: 1050px)  {
+
+}
+
+
+@media (max-width: 767px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+   
+  }
+
+  .leftSection {
+    display: none; /* Masque la section gauche pour les appareils mobiles */
+  }
+
+  .rightSection {
+    width: 100%; /* Utilise la pleine largeur disponible */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu dans la section de droite */
+  }
+  
+  .signUp {
+    width: 80%; /* Rend les boutons plus larges pour faciliter le clic */
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .signIn {
+    width: 80%; /* Rend les boutons plus larges pour faciliter le clic */
+    margin-top: 20px;
+  }
+
+
+  .title {
+    font-size: 24px; /* Ajuste la taille du titre pour les petits écrans */
+    text-align: center; /* Assure que le titre est centré */
+    margin-top: 30px;
+  }
+
+  .centerText {
+    text-align: center;
+  }
+  }
