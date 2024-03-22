@@ -154,6 +154,7 @@
   .leftSection {
     width: 100%;
     background-color: #192633;
+    height: 30vh;
 
   }
   
@@ -161,7 +162,7 @@
     width: 100%;
     height: 100vh;
     padding-bottom: 100%;
-    background-color: #192633;
+    background-color: #243647;
   }
   
   .middleSection::-webkit-scrollbar {
