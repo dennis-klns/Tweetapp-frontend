@@ -149,14 +149,23 @@
 @media (max-width: 767px) {
 
   .container {
- flex-direction: column;
+    flex-direction: column;
+    align-items: center; /* Centrer les enfants de .container */
   }
-  .leftSection {
-    width: 100%;
-    background-color: #192633;
-    height: 30vh;
 
+ .leftSection {
+    flex-direction: row; /* Change la direction à row */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center; /* Aligner les éléments verticalement */
+    width: 100%; /* Utiliser toute la largeur disponible */
+    height: auto; /* Ajuster la hauteur automatiquement */
+    padding: 10px 20px; /* Ajuster le padding selon les besoins */
   }
+
+  .logo, .userSection, .userInfo, .logout {
+    flex-grow: 1; /* Permet à chaque élément de s'étendre et occuper l'espace disponible */
+  }
+
   
   .middleSection {
     width: 100%;
