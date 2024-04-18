@@ -1,9 +1,9 @@
 # Readme ![language](https://img.shields.io/badge/language-javascript-blue.svg)
 
-Attention cette application fonctionne sur Android mais est optimisé pour IOS !
+Vous pouvez accéder au site dictement sur le lien suivant (herbergé sur Vercel) : 
+[https://morning-news-frontend-black.vercel.app/](https://tweetapp-frontend.vercel.app/login)
 
-Vous pouvez lancer l'application dictement sur le lien suivant : 
-https://expo.dev/preview/update?message=Pour%20tester%20l%27app%20t%C3%A9l%C3%A9chargez%20Expo%20go.%20(fonctionne%20sur%20Adroid%20mais%20application%20optimis%C3%A9%20pour%20IOS).&updateRuntimeVersion=1.0.0&createdAt=2024-04-18T10%3A14%3A35.313Z&slug=exp&projectId=2eac5ab9-1734-4418-b663-af258897b41c&group=a20b0976-ca0c-4b7b-b2f6-2dbaf4338659
+"Pour assurer la sécurité des données utilisateur, tous les mots de passe sont sécurisément hachés avant d'être stockés dans notre base de données."
 
 ### Si vous voulez tester l'application en local veuillez suivre les indications suivantes : 
 
